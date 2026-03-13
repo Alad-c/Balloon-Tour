@@ -5,6 +5,25 @@
     <title>SkyDream Balloons – Home</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the home page can be added here */
+        .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* можно убрать или изменить */
+    aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+    </style>
+
 </head>
 <body>
 <header>
@@ -39,7 +58,7 @@
             </ul>
         </div>
         <div class="hero-media">
-            <img src="balloon-main.jpg" alt="Hot air balloons over Irish countryside" class="hero-image">
+            <img src="mainBalloon.png" alt="Hot air balloons over Irish countryside" class="hero-image">
         </div>
     </section>
 
@@ -76,13 +95,16 @@
     <section class="media-section">
         <h2>Feel the Experience</h2>
         <div class="media-grid">
-            <div>
-                <h3>Highlight Video</h3>
-                <!-- <video controls width="100%">
-                    <source src="balloon-tour.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video> -->
-            </div>
+            <div class="video-container">
+    <iframe 
+        src="https://www.youtube.com/embed/3hIbp2-ctG8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
+
             <div>
                 <h3>Sound of the Sky</h3>
                 <!-- <audio controls>
