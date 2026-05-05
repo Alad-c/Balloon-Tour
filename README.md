@@ -29,6 +29,10 @@ To view the project locally, follow these steps:
 - `about.htm` — Company background and information.
 - `styles.css` — Core styling for the entire site.
 - `/images` — Visual assets and icons.
+## 📸 Screenshots
+
+![Main Page](assets/screenshot1.png)
+![Booking Page](assets/screenshot2.png)
 
 ## 🌐 Live Demo
 [View Live Site](https://alad-c.github.io/Balloon-Tour/)
