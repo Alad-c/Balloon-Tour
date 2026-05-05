@@ -31,8 +31,8 @@ To view the project locally, follow these steps:
 - `/images` — Visual assets and icons.
 ## 📸 Screenshots
 
-![Main Page](assets/screenshot1.png)
-![Booking Page](assets/screenshot2.png)
+![Main Page](assets/Screenshot1.png)
+![Booking Page](assets/Screenshot2.png)
 
 ## 🌐 Live Demo
 [View Live Site](https://alad-c.github.io/Balloon-Tour/)
